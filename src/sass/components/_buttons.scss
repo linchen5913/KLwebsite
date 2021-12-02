@@ -75,6 +75,10 @@
   color: $white-color;
   border: 2px solid $white-color;
 
+  &:last-child {
+    margin-left: 0.5rem;
+  }
+
   &::after {
     background: $white-color;
   }
